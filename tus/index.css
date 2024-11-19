@@ -1,0 +1,68 @@
+.navigation{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.083);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.246);
+}
+.navigation .logo h1{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.navigation .logo h1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(186, 243, 0);
+    transition: 0.5s;
+}
+
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+.Home .box{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.246);
+    margin: 0 auto 0 auto;
+    transform: translate(5%, 50%);   
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   box-shadow: 2px 2px 10px yellow;
+}
+.Home .box .boxs{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(110, 8, 206);
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.481);
+}
+.Home .box .boxs h1{
+    color: rgb(255, 255, 255);
+}
